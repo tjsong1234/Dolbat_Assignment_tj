@@ -7,8 +7,7 @@ setup(
     packages=find_packages(),
     data_files=[
         ('share/ament_index/resource_index/packages', ['resource/turtle_click_nav']),
-        ('share/turtle_click_nav', ['package.xml']),
-        ('share/turtle_click_nav/screenshots', glob('screenshots/*.png')),
+        ('share/turtle_click_nav', ['package.xml', 'README.md']),
         ('share/turtle_click_nav/launch', glob('launch/*.launch.py')),
     ],
     install_requires=['setuptools'],
